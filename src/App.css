@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: xx-large;
+}
+
+.exercise, .exercise * {
+  font-size: xx-large;
+  color: red;
+
+}
+
+.image-div
+{
+  position: relative;
+  width: 640px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.road-under
+{
+  position:absolute;
+  left: 0%;
+  /*left: 50%;*/
+  /*-webkit-transform: translateX(-50%);*/
+  /*transform: translateX(-50%);*/
+  top:0px;
+  z-index:-1;
+}
+
+.road-over
+{
+  position:absolute;
+  left: 0%;
+  /*left: 50%;*/
+  /*-webkit-transform: translateX(-50%);*/
+  /*transform: translateX(-50%);*/
+  top:0px;
+  z-index:-1;
+}
+
+.overlay-numbers
+{
+  position: absolute;
+  z-index: -1;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: monospace;
+  color: yellow;
+  background-color: #00d6d6;
+}
+
+.time-left
+{
+  left: 110px;
+  top: 22px;
+}
+
+.score
+{
+  left: 260px;
+  width: 130px;
+  top: 22px;
+}
+
+.gameover
+{
+  left: 50%;
+  top: 130px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.progress-bar
+{
+  width: 640px;
+  height: 6px;
+  background-color: red;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
